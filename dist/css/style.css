@@ -115,13 +115,29 @@ p {
   border-bottom: #EAF27C dotted .5px;
 }
 
-.py1 { padding: 1.5rem 0; }
-.py2 { padding: 2rem 0; }
-.py3 { padding: 3em 0; }
+.py1 {
+  padding: 1.5rem 0;
+}
 
-.p1 { padding: 1.5rem; }
-.p2 { padding: 2rem; }
-.p3 { padding: 3rem; }
+.py2 {
+  padding: 2rem 0;
+}
+
+.py3 {
+  padding: 3em 0;
+}
+
+.p1 {
+  padding: 1.5rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.p3 {
+  padding: 3rem;
+}
 
 /* Navbar */
 #navbar {
@@ -154,7 +170,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #0B0133 url(/img/showcase.jpg) no-repeat center center/cover;
+  background: #0B0133 url(../img/showcase.jpg) no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -168,7 +184,7 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
-/* Overlay for the image */
+  /* Overlay for the image */
   position: absolute;
   top: 65px;
   left: 0;
@@ -206,7 +222,7 @@ p {
 }
 
 #who .whoImg {
-  background: url(/img/people.jpg) no-repeat center center/cover;
+  background: url(../img/people.jpg) no-repeat center center/cover;
 }
 
 /* Section: Clients */
@@ -226,7 +242,8 @@ p {
   display: flex;
 }
 
-#contact .map, #contact .contactForm {
+#contact .map,
+#contact .contactForm {
   flex: 1;
 }
 
